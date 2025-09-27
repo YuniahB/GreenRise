@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "baseURL = "https://<your-site>.netlify.app/"
 languageCode = "en-us"
 title = "Green-Rise (Demo)"
 theme = "PaperMod"
