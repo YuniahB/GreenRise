@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1327&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Categories | Green-Rise (Demo)</title>
+<meta name="keywords" content="">
+<meta name="description" content="Smart, sustainable urban apartments in monumental buildings.">
+<meta name="author" content="">
+<link rel="canonical" href="http://127.0.0.1:1327/categories/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.4c913308a8fde305e67e8b5f141703110fc3df1a71c97f6b436873c58dc9a7ff.css" integrity="sha256-TJEzCKj94wXmfotfFBcDEQ/D3xpxyX9rQ2hzxY3Jp/8=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://127.0.0.1:1327/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://127.0.0.1:1327/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://127.0.0.1:1327/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://127.0.0.1:1327/apple-touch-icon.png">
+<link rel="mask-icon" href="http://127.0.0.1:1327/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://127.0.0.1:1327/categories/index.xml">
+<link rel="alternate" hreflang="en" href="http://127.0.0.1:1327/categories/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="list" id="top"><header class="gr-header">
+  <a class="gr-brand" href="/">Green-Rise (Demo)</a>
+ <details class="gr-menu">
+    <summary aria-label="Open menu" title="Menu">
+      <span class="gr-burger" aria-hidden="true">
+        <i></i><i></i><i></i><i></i><i></i>
+      </span>
+      Menu
+    </summary>
+    <nav class="gr-menu-panel">
+      <a href="/">01 Home</a>
+      <a href="/about/">02 About us</a>
+      <a href="/projects/">03 Projects</a>
+      <a href="/vision/">04 Vision</a>
+      <a href="/contact/">05 Contact</a>
+    </nav>
+  </details>
+</header>
+<main class="main">
+<header class="page-header">
+    <h1>Categories</h1>
+</header>
+
+<ul class="terms-tags">
+</ul>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://127.0.0.1:1327/">Green-Rise (Demo)</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

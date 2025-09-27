@@ -1,0 +1,226 @@
+
+
+Home
+
+---
+
+title: "Green-Rise"
+
+draft: false
+
+---
+
+
+
+Traditional craftsmanship, modern living.  
+
+Smart, sustainable urban apartments in monumental buildings.
+
+
+
+\- Target group: starting tenants (25–30) – singles \& young couples who want vibrant city life  
+
+\- Locations: inner-city neighborhoods close to cafés, shops, culture  
+
+\- Sustainability: A+ energy label, all-electric (no gas), solar, strong insulation  
+
+\- Quality: durable materials and modern interiors with a touch of luxury
+
+
+
+→ Explore our \[Projects](/projects/) or read more \[About us](/about/).
+
+
+
+Projects
+
+---
+
+title: "Projects"
+
+draft: false
+
+---
+
+
+
+We transform characteristic, monumental buildings into efficient, comfortable apartments in inner-city areas.  
+
+Below you’ll find active and upcoming projects.
+
+
+
+Project/Hof-van-Renaud
+
+---
+
+title: "Hof van Renaud Pakhuis"
+
+date: 2025-09-23
+
+images: ["/img/pakhuis-wohnraum.jpg"]   # for social cards/SEO
+cover:
+  image: "/img/pakhuis-wohnraum.jpg"    # shown as the page banner
+  alt: "Wohnraum – refurbished interior"
+  caption: "Hof van Renaud (concept)"
+  relative: false
+  hidden: false           # set to true to hide
+  hiddenInList: false     # hide on lists if needed
+  hiddenInSingle: false   # hide on single page if needed
+
+summary: "Historic warehouse conversion into A+ urban apartments in Delft."
+
+tags: \["delft", "renovation", "sustainable"]
+
+draft: false
+
+---
+
+
+
+Overview
+
+A multi-year renovation of a historic warehouse (“Pakhuis”) into energy-efficient apartments in the heart of Delft.  
+
+Planned completion: September 2026.
+
+
+
+Key Facts
+
+\- Type: heritage renovation  
+
+\- Focus: starting tenants (25–30)  
+
+\- Energy: A+ label target, all-electric, solar, high-performance insulation  
+
+\- Approach: high-quality finishes; tenant-centric service \& mediation
+
+
+
+Timeline (high-level)
+
+\- 2019–2023 — Acquisition \& permitting  
+
+\- 2024 — Structural works \& stabilization  
+
+\- 2025 — Envelope, MEP (electric), insulation, solar prep  
+
+\- 2026 — Interiors, commissioning, hand-over
+
+
+
+Funding \& Cashflow (phased)
+
+| Tranche | Planned Date | Actual Date | Amount |
+
+|---|---:|---:|---:|
+
+| T1 | 2024-04 | 2024-05 | €xxx,xxx |
+
+| T2 | 2024-11 | 2024-12 | €xxx,xxx |
+
+| T3 | 2025-06 | 2025-07 | €xxx,xxx |
+
+
+
+Bridge financing is used between tranches to keep works on schedule.
+
+
+
+Live Dashboard
+
+<div style="aspect-ratio:16/9;">
+
+&nbsp; <!-- Replace with your public Power BI 'Publish to web' URL -->
+
+&nbsp; <iframe width="100%" height="100%" src="YOUR\_POWERBI\_EMBED\_URL" frameborder="0" allowfullscreen="true"></iframe>
+
+</div>
+
+
+
+Gallery
+
+!\[Facade, before](/img/pakhuis-before.jpg)
+
+!\[Interior framing](/img/pakhuis-frame.jpg)
+
+!\[Courtyard concept](/img/pakhuis-courtyard.jpg)
+
+
+
+Next Milestones
+
+\- Insulation \& window install  
+
+\- Interior fit-out  
+
+\- Pre-leasing \& handover
+
+
+
+About
+
+---
+
+title: "About"
+
+draft: false
+
+---
+
+
+
+Green-Rise NL develops smart, sustainable urban apartments in characteristic (monumental) buildings.
+
+
+
+What we believe
+
+\- Tenant-centric landlord service  
+
+\- A+ energy label, all-electric, solar, insulation  
+
+\- High-quality finishes with modern, “status” interiors  
+
+\- Carbon-neutral ambition in construction \& operations  
+
+\- Urban living near shops, restaurants, nightlife
+
+
+
+Target group
+
+Starting tenants (25–30) — singles \& young working couples who want vibrant city life.
+
+
+
+Contact
+
+---
+
+title: "Contact"
+
+draft: false
+
+---
+
+
+
+Green-Rise NL 
+
+Delft, Zuid-Holland, Netherlands  
+
+Email: info@green-rise.nl
+
+
+
+Demo/portfolio site.
+
+
+
+
+
+
+

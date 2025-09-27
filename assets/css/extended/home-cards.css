@@ -1,0 +1,102 @@
+/* ===== HERO (clean + readable) ===== */
+.gr-hero{
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  margin: 0 0 1.25rem;
+}
+.gr-hero img{
+  width: 100%;
+  height: clamp(240px, 38vw, 520px);
+  object-fit: cover;
+  display: block;
+}
+
+/* Text panel sits ON the image on desktop, becomes a separate card on mobile */
+.gr-hero-text{
+  position: absolute;
+  left: 1.25rem;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  max-width: min(820px, 92%);
+  padding: 1rem 1.25rem;
+  border-radius: 10px;
+  border: 1px solid var(--entry-border);
+  box-shadow: 0 12px 30px rgba(0,0,0,.12);
+  backdrop-filter: blur(6px);
+  /* Light theme card */
+  background: rgba(255,255,255,.92);
+  color: var(--content);
+}
+@media (prefers-color-scheme: dark){
+  .gr-hero-text{
+    background: rgba(20,20,20,.82);
+  }
+}
+.gr-hero-text h1{ margin: .25rem 0 .5rem; }
+.gr-hero-text p{ margin: 0 0 .5rem; }
+
+/* On small screens, pull the text OUT from overlay to its own card under the image */
+@media (max-width: 768px){
+  .gr-hero-text{
+    position: static;
+    margin: .75rem 0 0;
+  }
+}
+
+/* ===== Buttons ===== */
+.gr-btn{
+  display: inline-block;
+  padding: .55rem .95rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  border: 1px solid var(--entry-border);
+  background: var(--theme);
+  margin-right: .5rem;
+}
+.gr-btn.ghost{ background: transparent; }
+
+/* ===== Cards grid (Home + Projects) ===== */
+.gr-cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+  margin: 1.25rem 0;
+}
+.gr-card{
+  display: block;
+  background: var(--theme);
+  border: 1px solid var(--entry-border);
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.gr-card img{
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+.gr-card h3{ margin: .75rem 1rem .25rem; }
+.gr-card p{ margin: 0 1rem 1rem; color: var(--secondary); }
+.gr-card:hover{ transform: translateY(-2px); box-shadow: 0 12px 32px rgba(0,0,0,.08); }
+
+/* ===== Gallery grid (project detail) ===== */
+.gr-gallery{
+  display:grid;
+  grid-template-columns:repeat(auto-fill, minmax(240px, 1fr));
+  gap:12px;
+  margin:1rem 0;
+}
+.gr-gallery img{
+  width:100%;
+  height:auto;
+  border-radius:8px;
+  display:block;
+}
+
+/* Always below-image variant */
+.gr-hero-text{ position: static !important; margin: .75rem 0 0 !important; }
+
