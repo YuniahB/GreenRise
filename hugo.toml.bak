@@ -1,0 +1,39 @@
+baseURL = "baseURL = "https://<your-site>.netlify.app/"
+languageCode = "en-us"
+title = "Green-Rise (Demo)"
+theme = "PaperMod"
+
+[pagination]
+  pagerSize = 6
+
+[params]
+  defaultTheme = "light"
+  description = "Smart, sustainable urban apartments in monumental buildings."
+  ShowBreadCrumbs = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+  [[menu.main]]
+    name = "News"
+    url = "/news/"
+    weight = 4
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 5

@@ -2,27 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://127.0.0.1:1327/about/</loc>
+    <loc>http://127.0.0.1:1336/about/</loc>
     <lastmod>2025-09-23T21:43:39+02:00</lastmod>
   </url><url>
-    <loc>http://127.0.0.1:1327/</loc>
+    <loc>http://127.0.0.1:1336/</loc>
     <lastmod>2025-09-23T21:43:39+02:00</lastmod>
   </url><url>
-    <loc>http://127.0.0.1:1327/projects/hof-van-renaud/</loc>
+    <loc>http://127.0.0.1:1336/projects/hof-van-renaud/</loc>
     <lastmod>2025-09-23T21:43:39+02:00</lastmod>
   </url><url>
-    <loc>http://127.0.0.1:1327/news/</loc>
+    <loc>http://127.0.0.1:1336/news/</loc>
     <lastmod>2025-09-23T21:43:39+02:00</lastmod>
   </url><url>
-    <loc>http://127.0.0.1:1327/projects/</loc>
+    <loc>http://127.0.0.1:1336/projects/</loc>
     <lastmod>2025-09-23T21:43:39+02:00</lastmod>
   </url><url>
-    <loc>http://127.0.0.1:1327/categories/</loc>
+    <loc>http://127.0.0.1:1336/categories/</loc>
   </url><url>
-    <loc>http://127.0.0.1:1327/contact/</loc>
+    <loc>http://127.0.0.1:1336/contact/</loc>
   </url><url>
-    <loc>http://127.0.0.1:1327/tags/</loc>
+    <loc>http://127.0.0.1:1336/tags/</loc>
   </url><url>
-    <loc>http://127.0.0.1:1327/vision/</loc>
+    <loc>http://127.0.0.1:1336/vision/</loc>
   </url>
 </urlset>
