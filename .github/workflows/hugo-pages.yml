@@ -27,7 +27,7 @@ jobs:
           hugo-version: '0.150.0'
           extended: true
       - name: Build
-        run: hugo --minify --baseURL "https://YuniahB.github.io/greenrise/"
+        run: hugo --minify --baseURL "https://YuniahB.github.io/GreenRise/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
